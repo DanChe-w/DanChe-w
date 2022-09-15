@@ -108,7 +108,8 @@ header{
 }
 
 
-section {
+.section01{
+
     height: 70%;
     margin-left: 15%;
     width: 70%;
@@ -116,28 +117,29 @@ section {
 }
 
 
-nav {
-
+.nav01 {
+    height: 90%;
+    float: left;
     background-color: hsla(300,60%,20%,.9);
     padding: 1%;
     width:15%;
 }
 
-.nav01{
+.nav02{
 
-    margin-top: 20px;
-    line-height: 25px;
-    height: 200px;
-    width: 200px;
+    margin-top: 15px;
+    /*line-height: 25px;*/
+    height: 35%;
+    width: 100%;
     border-radius: 15px;
     background-color: darkgray;
     border: 1px solid red;
 }
-.nav02{
+.nav03{
     margin-top: 20px;
     line-height: 25px;
     height: 150px;
-    width: 200px;
+    width: 100%;
     border-radius: 15px;
     background-color: darkgray;
     border: 1px solid red;
@@ -145,18 +147,21 @@ nav {
 
 
 
-article {
-    width: 40%;
+.article01 {
+    height: 90%;
+    float: left;
+    width: 60%;
     background-color: hsla(120,50%,50%,.9);
     padding: 1%;
 }
 
 
-aside {
-
+.aside01 {
+    width: 19%;
+    height: 90%;
+    float: right;
     background-color: hsla(20,80%,80%,.9);
     padding: 1%;
-    width: 15%;
 }
 
 
@@ -185,54 +190,3 @@ footer {
 }
 
 
-
-
-section {
-    display: -moz-box;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-flex: 1;
-    -moz-box-flex: 1;
-    -ms-flex: 1;
-    -webkit-flex: 1;
-    flex: 1;
-    -moz-box-orient: horizontal;
-    -webkit-box-orient: horizontal;
-    -moz-box-direction: normal;
-    -webkit-box-direction: normal;
-    -moz-box-lines: multiple;
-    -webkit-box-lines: multiple;
-    -ms-flex-flow: row wrap;
-    -webkit-flex-flow: row wrap;
-    flex-flow: row wrap;
-    -moz-box-align: stretch;
-    -webkit-box-align: stretch;
-    -ms-flex-align: stretch;
-    -webkit-align-items: stretch;
-    align-items: stretch;
-}
-
-
-article {
-    -moz-box-flex: 1;
-    -webkit-box-flex: 1;
-    -ms-flex: 1;
-    -webkit-flex: 1;
-    flex: 1;
-    -moz-box-ordinal-group: 2;
-    -webkit-box-ordinal-group: 2;
-    -ms-flex-order: 2;
-    -webkit-order: 2;
-    order: 2;
-}
-
-
-aside {
-    -moz-box-ordinal-group: 3;
-    -webkit-box-ordinal-group: 3;
-    -ms-flex-order: 3;
-    -webkit-order: 3;
-    order: 3;
-}
