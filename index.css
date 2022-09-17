@@ -1,0 +1,82 @@
+*{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+.index{
+    font-family: 华文行楷;
+    font-size: 80px;
+    color:  coral;
+    background: url("1.jpg") no-repeat;
+    background-size: cover;
+}
+
+.index-head{
+    margin-left: 50%;
+    margin-top: 80px;
+    display: flex;
+}
+
+/*导航栏*/
+.index-head>div{
+    border: 1px solid white;
+
+    text-align: center;
+    background-color: #2E3D44;
+    width: 250px;
+    display: flex;
+}
+.index-head>div>span{
+    font-size: 50px;
+    color: white;
+    font-family: 华文楷体;
+    text-align: center;
+    margin:0 auto;
+}
+.index-head>div:hover{
+    background-color: blanchedalmond;
+}
+
+.text{
+    margin-top: 60px;
+    margin-left: 35%;
+}
+a:hover{
+    color: coral;
+}
+.index2 span{
+    font-size: 50px;
+   color: black;
+}
+
+
+/*2222222222222222*/
+
+.index2{
+    font-family: 华文楷体;
+    font-size: 30px;
+    color:  coral;
+    background: url("2.jpeg") no-repeat;
+    background-size: cover;
+}
+
+.index2-bottom{
+    margin-left: 200px;
+}
+ul{
+    margin-left: 50px;
+}
+
+/*33333333333333333333333333*/
+.index3 li{
+    list-style-type:square;
+}
+
+.index3{
+    margin-left: 50px;
+}
